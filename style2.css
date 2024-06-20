@@ -1,0 +1,45 @@
+html {
+  background-color: rgba(21, 16, 24, 0.842);
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0.3px;
+  margin: 0.3px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  color: white;
+}
+
+div {
+  border: 1px solid rgb(240, 10, 10);
+  padding: 0;
+  margin: 0;
+}
+
+#container > div {
+  font-size: 5px;
+  color: rgb(0, 217, 255);
+}
+
+#container > div:hover {
+  background-color: rgb(47, 57, 184);
+  color: blue;
+  font-size: large;
+  font-weight: bolder;
+}
+
+button:hover {
+  font-weight: bolder;
+  background-color: red;
+}/*# sourceMappingURL=style2.css.map */
